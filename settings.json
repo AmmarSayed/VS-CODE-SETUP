@@ -1,11 +1,8 @@
 {
-  "editor.fontSize": 26,
-  "window.zoomLevel": 2,
-  "files.autoSave": "off",
-  "editor.tabSize": 1,
+  "editor.fontSize": 18,
+  "window.zoomLevel": 0,
   "editor.wordWrap": "on",
   "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
   "terminal.integrated.fontSize": 18,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
@@ -14,19 +11,19 @@
     "opening": {
       "left": {
         "custom": {
-          "borderWidth": "0 0 0 3px",
+          "borderWidth": "0 2px 0 0",
           "borderStyle": "solid",
           "borderColor": "yellow",
-          "borderRadius": "5px",
+          "borderRadius": "3px",
           "overviewRulerColor": "white"
         }
       },
       "right": {
         "custom": {
-          "borderWidth": "0 3px 0 0",
+          "borderWidth": "0 1px 0 0",
           "borderStyle": "solid",
           "borderColor": "yellow",
-          "borderRadius": "5px",
+          "borderRadius": "3px",
           "overviewRulerColor": "white"
         }
       }
@@ -34,6 +31,51 @@
   },
   "editor.minimap.enabled": false,
   "prettier.jsxSingleQuote": true,
-  "prettier.semi": false,
-  "prettier.singleQuote": true
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "files.autoSaveDelay": 500,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.menuBarVisibility": "default",
+  "editor.renderWhitespace": "all",
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": true,
+  "breadcrumbs.enabled": true,
+  "workbench.startupEditor": "welcomePage",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSave": "off",
+  "git.enableSmartCommit": true,
+  "workbench.colorTheme": "One Dark Pro",
+  "liveSassCompile.settings.formats": [
+
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/dist/css"
+    }
+  ],
+  "workbench.editorAssociations": [
+
+    
+  ],
+  
+  "files.associations": {
+    "*.js": "javascript"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.printWidth": 100,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+  
+
 }
